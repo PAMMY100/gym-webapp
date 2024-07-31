@@ -1,8 +1,9 @@
 import React from 'react'
+import AboutPage from '../components/LandingPage/About/AboutPage';
 
 const About = () => {
   return (
-    <div>About</div>
+    <AboutPage />
   )
 }
 

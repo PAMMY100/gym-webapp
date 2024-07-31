@@ -4,7 +4,7 @@ import Button from '../../ui/Button'
 const Freeworkout = () => {
 
   return (
-    <div className='sm:ml-0 mt-8 ml-5 sm:p-3'>
+    <div className='sm:ml-0 mt-8 pl-5 sm:p-3'>
         <h1 className='sm:text-2xl text-4xl font-bold'>Free Workout Programs</h1>
         <ul className='lg:grid sm:grid-cols-2 sm:gap-3 sm:p-3 lg:grid-cols-3 lg:gap-2 flex gap-14 xl:gap-10 p-14'>
           {programs.map(program => <li key={program.title}>
